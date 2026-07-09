@@ -10,6 +10,6 @@ void main() {
 
     double use = distance / efficiency;
     double cost = use * price;
-    IO.println("Fuel use:" + use);
-    IO.println("Total fuel cost:" + cost);
+    IO.println("Fuel use:" + use + " liters");
+    IO.println("Total fuel cost:" + cost + " bath");
 }
