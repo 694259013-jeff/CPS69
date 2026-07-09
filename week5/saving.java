@@ -14,7 +14,7 @@ void main() {
     double totalsaveing = initialsaving + monthlysaving * numberofmonth;
     double interest = totalsaveing * interestpercent / 100;
     double finalsaving = totalsaveing + interest;
-    IO.println("Total saving before interest is: " + totalsaveing);
-    IO.println("interest is: " + interest);
-    IO.println("Final saving is: " + finalsaving);
+    IO.println("Total saving before interest is = %.2f ".formatted(totalsaveing) + "bath");
+    IO.println("interest is = %.2f ".formatted(interest) + "bath");
+    IO.println("Final saving is = %.2f ".formatted(finalsaving) + "bath");
 }
